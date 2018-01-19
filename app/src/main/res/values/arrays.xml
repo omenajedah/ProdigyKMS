@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category">
+        <item>Project Dept</item>
+        <item>Game Dept</item>
+        <item>HR Dept</item>
+        <item>GA Dept</item>
+        <item>Marketing Dept</item>
+        <item>Concept Dept</item>
+        <item>Design Dept</item>
+        <item>Technical Dept</item>
+        <item>FA Dept</item>
+        <item>Payment Dept</item>
+        <item>CS Dept</item>
+    </string-array>
+
+    <string-array name="status_user">
+        <item>Admin</item>
+        <item>Karyawan</item>
+    </string-array>
+</resources>

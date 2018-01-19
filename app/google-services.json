@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "840632467117",
+    "firebase_url": "https://prodigy-kms.firebaseio.com",
+    "project_id": "prodigy-kms",
+    "storage_bucket": "prodigy-kms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840632467117:android:8a87ed15fc293710",
+        "android_client_info": {
+          "package_name": "app.dodi.com.prodigykms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840632467117-8ij6qi3nd5vg260j19l9888054ae0q8f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.dodi.com.prodigykms",
+            "certificate_hash": "852f8e2a0fe3fb1fd87edf5a034ac8f0156d3c0d"
+          }
+        },
+        {
+          "client_id": "840632467117-la3i5fodh5jfas2iuuq6aha3lt3ae1t0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjIA-EESfKLQc1EbBRT5NifRYcLt7DSx8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840632467117-la3i5fodh5jfas2iuuq6aha3lt3ae1t0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

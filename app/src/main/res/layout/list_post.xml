@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="4dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="5dp"
+        android:cropToPadding="true"
+        android:src="@drawable/ic_default_img"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/content_post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:ellipsize="end"
+            android:lines="2"
+            android:maxLines="2"
+            android:textColor="@android:color/black"
+            tools:text="Tes comment \n tes comment Tes comment tes comment Tes comment tes comment Tes comment tes commentTes comment \n tes comment" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/status_user"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".25"
+                android:gravity="center_vertical"
+                android:textColor="@color/colorPrimary"
+                tools:text="Moderator" />
+
+            <TextView
+                android:id="@+id/jumlah_comment"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".15"
+                android:drawableStart="@drawable/ic_comment"
+                android:gravity="center_vertical"
+                android:textSize="13sp"
+                tools:text="30" />
+
+            <TextView
+                android:id="@+id/waktu_post"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"
+                android:gravity="center_vertical|end"
+                android:textSize="12sp"
+                tools:text="Des 24 2017 17:21 pm" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

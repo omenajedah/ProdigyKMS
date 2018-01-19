@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Prodigy KMS</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Pengaturan</string>
+    <string name="text_username">Username</string>
+    <string name="text_password">Password</string>
+    <string name="text_login">Masuk</string>
+    <string name="text_account">Akun</string>
+    <string name="text_logout">Keluar</string>
+    <string name="text_about">About</string>
+    <string name="text_category">Kategori %s</string>
+    <string name="text_judul_post">Judul Post</string>
+    <string name="text_isi_post">Isi Post</string>
+    <string name="text_tambah_gambar">Tambah Gambar</string>
+    <string name="text_data_explicit">Data Explicit</string>
+    <string name="text_lihat_semua">Lihat Semua</string>
+    <string name="text_data_tacit">Data Tacit</string>
+    <string name="text_tambah_diskusi">Tambah Diskusi</string>
+    <string name="text_quick_reply">Quick Reply</string>
+    <string name="text_tambah_comment">Tambah Comment</string>
+
+    <string name="default_notification_channel_name" translatable="true">News</string>
+    <string name="text_notification">Notifikasi</string>
+
+    <string name="text_new_post">Diskusi %s Baru: %s, Kategori: %s</string>
+    <string name="text_new_comment">Komentar %s Baru: %s, Kategori: %s</string>
+    <string name="text_simpan">Simpan</string>
+    <string name="text_title_about">Tentang Prodigy KMS</string>
+    <string name="text_kelola_aplikasi">Kelola Aplikasi</string>
+    <string name="text_kelola_tentang_aplikasi">Kelola Tentang Aplikasi</string>
+    <string name="text_kelola_departemen">Kelola Kategori</string>
+    <string name="text_kelola_user">Kelola User</string>
+
+</resources>
